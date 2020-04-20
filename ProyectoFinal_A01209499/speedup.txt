@@ -1,0 +1,34 @@
+Tiempos de ejecución en mi laptop:
+
+  Implementación en C       = 387.83070 ms
+  Implementación en C++     = 504.941 ms
+  Implementación en C++ -O3 = 126.488 ms
+
+  Implementación en OpenMP     = 113.46940 ms
+  Implementación en OpenMP -O3 = 110.78970 ms
+  Implementación en TBB        = 170.05500 ms
+  Implementación en TBB -O3    = 108.79900 ms
+
+
+  Implementación en Java = 108.79000 ms
+
+  Implementación en Threads   = 102.52000 ms
+  Implementación en Fork/Join = 0.30000 ms
+
+Tiempos de ejecución en el servidor:
+
+  Implementación en C       = 371.78950 ms
+  Implementación en C++     = 450.62300 ms
+  Implementación en C++ -O3 = 102.70400 ms
+
+  Implementación en OpenMP     = 98.26680 ms
+  Implementación en OpenMP -O3 = 74.83060 ms
+  Implementación en TBB        = 119.5060 ms
+  Implementación en TBB -O3    = 73.14630 ms
+  Implementación en CUDA       = 0.003900 ms
+  Implementación en CUDA -O3   = 0.003400 ms
+
+  Implementación en Java = 100.29000 ms
+
+  Implementación en Threads   = 65.30000 ms
+  Implementación en Fork/Join = 0.210000 ms
